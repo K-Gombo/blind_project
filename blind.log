@@ -1,0 +1,101 @@
+2024-01-18 16:38:21,918 | INFO | 13288 | bind.index() 진입
+2024-01-18 16:38:21,926 | INFO | 13288 | enter index
+2024-01-18 16:38:21,927 | INFO | 13288 | bind.index() 종료
+2024-01-18 16:38:23,118 | INFO | 13288 | bind.index() 진입
+2024-01-18 16:38:23,121 | INFO | 13288 | enter index
+2024-01-18 16:38:23,122 | INFO | 13288 | bind.index() 종료
+2024-01-18 16:38:24,321 | INFO | 13288 | guest: board.search_results(11)진입
+2024-01-18 16:38:24,321 | INFO | 13288 | guest: blind_board_DAO.selectBoardForSearch()에 진입
+2024-01-18 16:38:24,321 | INFO | 13288 | guest: board.search_results(11)종료
+2024-01-18 16:38:25,323 | INFO | 13288 | bind.index() 진입
+2024-01-18 16:38:25,324 | INFO | 13288 | enter index
+2024-01-18 16:38:25,325 | INFO | 13288 | bind.index() 종료
+2024-01-18 16:39:26,963 | INFO | 13288 | guest: board.search_results(erer)진입
+2024-01-18 16:39:26,963 | INFO | 13288 | guest: blind_board_DAO.selectBoardForSearch()에 진입
+2024-01-18 16:39:26,963 | INFO | 13288 | guest: board.search_results(erer)종료
+2024-01-18 16:39:28,274 | INFO | 13288 | member.login() GET 진입
+2024-01-18 16:39:28,274 | INFO | 13288 | enter the login page
+2024-01-18 16:39:32,098 | INFO | 13288 | member.login() POST 진입
+2024-01-18 16:39:32,098 | INFO | 13288 | member.selectMemberById() 진입
+2024-01-18 16:39:32,098 | INFO | 13288 | member.selectMemberById() 종료
+2024-01-18 16:39:32,098 | INFO | 13288 | login Success! Welcome, jang
+2024-01-18 16:39:32,098 | INFO | 13288 | member.login() 종료
+2024-01-18 16:39:32,107 | INFO | 13288 | bind.index() 진입
+2024-01-18 16:39:32,109 | INFO | 13288 | user jang enter index
+2024-01-18 16:39:32,109 | INFO | 13288 | bind.index() 종료
+2024-01-18 16:39:33,942 | INFO | 13288 | myPage() 진입
+2024-01-18 16:39:33,942 | INFO | 13288 | User jang myPage 진입
+2024-01-18 16:39:33,943 | INFO | 13288 | myPage() 종료
+2024-01-18 16:39:34,626 | INFO | 13288 | User jang member.myPageEdit() GET 진입
+2024-01-18 16:39:34,627 | INFO | 13288 | member.selectMemberByIdx() 진입
+2024-01-18 16:39:34,629 | INFO | 13288 | member.selectMemberByIdx() 종료
+2024-01-18 16:39:38,895 | INFO | 13288 | member.passwordConditionCheck() 진입
+2024-01-18 16:39:38,896 | INFO | 13288 | member.passwordConditionChecker() 진입
+2024-01-18 16:39:38,896 | INFO | 13288 | Good Password Condition
+2024-01-18 16:39:38,896 | INFO | 13288 | member.passwordConditionChecker() 종료
+2024-01-18 16:39:38,896 | INFO | 13288 | member.passwordConditionCheck() 종료
+2024-01-18 16:40:28,558 | INFO | 13288 | jang: GET으로 board.write()에 진입
+2024-01-18 16:40:31,350 | INFO | 13288 | jang: POST으로 board.write()에 진입
+2024-01-18 16:40:31,350 | INFO | 13288 | jang: blind_board_DAO.insertBoard()에 진입
+2024-01-18 16:40:31,364 | INFO | 13288 | jang: blind_board_DAO.inesrtBoard()종료
+2024-01-18 16:40:31,364 | INFO | 13288 | jang: board.write()종료
+2024-01-18 16:40:31,368 | INFO | 13288 | bind.index() 진입
+2024-01-18 16:40:31,368 | INFO | 13288 | user jang enter index
+2024-01-18 16:40:31,368 | INFO | 13288 | bind.index() 종료
+2024-01-18 16:40:32,129 | INFO | 13288 | jang: board.detail(24)에 진입
+2024-01-18 16:40:32,129 | INFO | 13288 | jang: blind_bloard_DAO.selectBoardByIdx(24)
+2024-01-18 16:40:32,132 | INFO | 13288 | jang: blind_board_DAO.selectBoardById()종료
+2024-01-18 16:40:32,133 | INFO | 13288 | jang: blind_reply_DAO.selectReplyByIdx()에 진입
+2024-01-18 16:40:32,135 | INFO | 13288 | jang: blind_reply_DAO.selectReplyByIdx()종료
+2024-01-18 16:40:32,136 | INFO | 13288 | jang: board.detail(24)종료
+2024-01-18 16:40:33,705 | INFO | 13288 | jang: GET으로 board.edit(24)에 진입
+2024-01-18 16:40:33,705 | INFO | 13288 | jang: blind_bloard_DAO.selectBoardByIdx(24)
+2024-01-18 16:40:33,709 | INFO | 13288 | jang: blind_board_DAO.selectBoardById()종료
+2024-01-18 16:40:34,985 | INFO | 13288 | jang: POST로 board.edit24에 진입
+2024-01-18 16:40:34,985 | INFO | 13288 | jang: blind_board_DAO.updateBoard()에 진입
+2024-01-18 16:40:35,000 | INFO | 13288 | jang: blind_board_DAO.updateBoard()종료
+2024-01-18 16:40:35,001 | INFO | 13288 | jang: board.edit(24)종료
+2024-01-18 16:40:35,004 | INFO | 13288 | bind.index() 진입
+2024-01-18 16:40:35,004 | INFO | 13288 | user jang enter index
+2024-01-18 16:40:35,004 | INFO | 13288 | bind.index() 종료
+2024-01-18 16:40:36,149 | INFO | 13288 | jang: board.detail(24)에 진입
+2024-01-18 16:40:36,149 | INFO | 13288 | jang: blind_bloard_DAO.selectBoardByIdx(24)
+2024-01-18 16:40:36,153 | INFO | 13288 | jang: blind_board_DAO.selectBoardById()종료
+2024-01-18 16:40:36,153 | INFO | 13288 | jang: blind_reply_DAO.selectReplyByIdx()에 진입
+2024-01-18 16:40:36,156 | INFO | 13288 | jang: blind_reply_DAO.selectReplyByIdx()종료
+2024-01-18 16:40:36,156 | INFO | 13288 | jang: board.detail(24)종료
+2024-01-18 16:40:38,056 | INFO | 13288 | jang: board.replyInsert(24)에 진입
+2024-01-18 16:40:38,056 | INFO | 13288 | jang: blind_reply_DAO.insertReply()에 진입
+2024-01-18 16:40:38,075 | INFO | 13288 | jang: blind_reply_DAO.insertReply()종료
+2024-01-18 16:40:38,075 | INFO | 13288 | jang: board.replyInsert(24)종료
+2024-01-18 16:40:38,097 | INFO | 13288 | jang: board.detail(24)에 진입
+2024-01-18 16:40:38,097 | INFO | 13288 | jang: blind_bloard_DAO.selectBoardByIdx(24)
+2024-01-18 16:40:38,099 | INFO | 13288 | jang: blind_board_DAO.selectBoardById()종료
+2024-01-18 16:40:38,099 | INFO | 13288 | jang: blind_reply_DAO.selectReplyByIdx()에 진입
+2024-01-18 16:40:38,101 | INFO | 13288 | jang: blind_reply_DAO.selectReplyByIdx()종료
+2024-01-18 16:40:38,102 | INFO | 13288 | jang: board.detail(24)종료
+2024-01-18 16:41:00,627 | INFO | 3344 | myPage() 진입
+2024-01-18 16:41:00,628 | INFO | 3344 | User jang myPage 진입
+2024-01-18 16:41:00,628 | INFO | 3344 | myPage() 종료
+2024-01-18 16:41:01,437 | INFO | 3344 | User jang member.myPageEdit() GET 진입
+2024-01-18 16:41:01,437 | INFO | 3344 | member.selectMemberByIdx() 진입
+2024-01-18 16:41:01,440 | INFO | 3344 | member.selectMemberByIdx() 종료
+2024-01-18 16:41:28,872 | INFO | 11512 | User jang member.myPageEdit() GET 진입
+2024-01-18 16:41:28,873 | INFO | 11512 | member.selectMemberByIdx() 진입
+2024-01-18 16:41:28,876 | INFO | 11512 | member.selectMemberByIdx() 종료
+2024-01-18 16:41:31,496 | INFO | 11512 | User jang member.myPageEdit() POST 진입
+2024-01-18 16:41:31,496 | INFO | 11512 | member.updateMember() 진입
+2024-01-18 16:41:31,507 | INFO | 11512 | member.updateMember() 종료
+2024-01-18 16:41:31,508 | INFO | 11512 | User jang update Complete
+2024-01-18 16:41:31,508 | INFO | 11512 | member.selectMemberById() 진입
+2024-01-18 16:41:31,511 | INFO | 11512 | member.selectMemberById() 종료
+2024-01-18 16:41:31,511 | DEBUG | 11512 | session Update
+2024-01-18 16:41:31,512 | INFO | 11512 | member.myPageEdit() 종료
+2024-01-18 16:41:31,516 | INFO | 11512 | bind.index() 진입
+2024-01-18 16:41:31,522 | INFO | 11512 | user jang enter index
+2024-01-18 16:41:31,524 | INFO | 11512 | bind.index() 종료
+2024-01-18 16:41:31,540 | INFO | 11512 | member.passwordConditionCheck() 진입
+2024-01-18 16:41:31,541 | INFO | 11512 | member.passwordConditionChecker() 진입
+2024-01-18 16:41:31,542 | INFO | 11512 | Good Password Condition
+2024-01-18 16:41:31,543 | INFO | 11512 | member.passwordConditionChecker() 종료
+2024-01-18 16:41:31,544 | INFO | 11512 | member.passwordConditionCheck() 종료
