@@ -94,6 +94,7 @@ def edit(num) :
 
 
 # 글 삭제하기
+@bp.route('/delete/<int:num>', methods=['GET'])
 def delete(num) :
     try:
         logger_board.info(f"{session['login_info'].get('id')}: board.delete({num})에 진입함")
